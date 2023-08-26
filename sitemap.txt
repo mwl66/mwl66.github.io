@@ -1,4 +1,6 @@
 http://example.com/2023/08/22/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/
-http://example.com/2023/08/22/My-New-Post/
-http://example.com/2023/08/22/hello-world/
 http://example.com/
+http://example.com/tags/JS/
+http://example.com/tags/React/
+http://example.com/tags/Vue/
+http://example.com/tags/Node/
