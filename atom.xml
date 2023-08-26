@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-08-26T19:26:15.026Z</updated>
+  <updated>2023-08-26T19:30:52.967Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2023/08/27/%E9%9F%B3%E8%A7%86%E9%A2%91%E8%87%AA%E5%8A%A8%E6%92%AD%E6%94%BE/"/>
     <id>http://example.com/2023/08/27/%E9%9F%B3%E8%A7%86%E9%A2%91%E8%87%AA%E5%8A%A8%E6%92%AD%E6%94%BE/</id>
     <published>2023-08-26T19:12:22.000Z</published>
-    <updated>2023-08-26T19:26:15.026Z</updated>
+    <updated>2023-08-26T19:30:52.967Z</updated>
     
     <content type="html"><![CDATA[<h3 id="html"><a href="#html" class="headerlink" title="html"></a>html</h3><pre><code>&lt;div class=&quot;container&quot;&gt;  &lt;video controls width=&quot;500&quot; autoplay class=&quot;player&quot;&gt;    &lt;source src=&quot;./demo.mp4&quot; /&gt;  &lt;/video&gt;  &lt;button class=&quot;btn&quot;&gt;开始播放&lt;/button&gt;&lt;/div&gt;</code></pre><h3 id="css"><a href="#css" class="headerlink" title="css"></a>css</h3><pre><code>.container &#123;  display: flex;  justify-content: center;  align-items: center;  position: relative;    .btn &#123;    position: absolute;    background-color: khaki;    border: unset;    border-radius: 15px;    width: 100px;    height: 30px;    cursor: pointer;  &#125;&#125;</code></pre><h3 id="js"><a href="#js" class="headerlink" title="js"></a>js</h3><h4 id="1-互动后出声"><a href="#1-互动后出声" class="headerlink" title="1.互动后出声"></a>1.互动后出声</h4><pre><code>const btn = document.querySelector(&#39;.btn&#39;);const vdo = document.querySelector(&#39;.player&#39;);// 1.互动后出声function play() &#123;  vdo.muted = true; //静音  vdo.play();  const ctx = new AudioContext();  console.log(&#39;====================================&#39;);  console.log(&#39;ctx&#39;, ctx);  console.log(&#39;====================================&#39;);  const canAutoPLay = ctx?.state === &#39;running&#39;;  ctx.close();  if (canAutoPLay) &#123;    vdo.muted = false;    btn.style.display = &#39;none&#39;;    btn.removeEventListener(&#39;click&#39;, play);  &#125; else &#123;    btn.style.display = &#39;block&#39;;    btn.addEventListener(&#39;click&#39;, play);  &#125;&#125;play()</code></pre><h4 id="2-互动后播放"><a href="#2-互动后播放" class="headerlink" title="2.互动后播放"></a>2.互动后播放</h4><pre><code>   async function play() &#123;    try &#123;      const res = await vdo.play();      console.log(&#39;====================================&#39;);      console.log(&#39;res&#39;, res);      console.log(&#39;====================================&#39;);      btn.style.display = &#39;none&#39;;      btn.addEventListener(&#39;click&#39;, play);    &#125; catch (error) &#123;      btn.style.display  = &#39;block&#39;;      btn.addEventListener(&#39;click&#39;, play);    &#125;  &#125;    function play() &#123;    vdo.play();  &#125;  play()</code></pre>]]></content>
     
