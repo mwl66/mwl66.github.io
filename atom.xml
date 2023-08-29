@@ -76,7 +76,7 @@
     <link href="https://boilingsheep.club/2023/08/29/craco%E9%85%8D%E7%BD%AEoutput%E8%B7%AF%E5%BE%84/"/>
     <id>https://boilingsheep.club/2023/08/29/craco%E9%85%8D%E7%BD%AEoutput%E8%B7%AF%E5%BE%84/</id>
     <published>2023-08-29T09:43:44.000Z</published>
-    <updated>2023-08-29T09:48:40.065Z</updated>
+    <updated>2023-08-29T10:30:13.081Z</updated>
     
     <content type="html"><![CDATA[<h3 id="配置绝对路径输出"><a href="#配置绝对路径输出" class="headerlink" title="配置绝对路径输出"></a>配置绝对路径输出</h3><pre><code>const path = require(&#39;path&#39;);module.exports = &#123; webpack: &#123; configure: (webpackConfig, &#123; env, paths &#125;) =&gt; &#123; // 将输出路径设置为绝对路径 webpackConfig.output.path = path.resolve(__dirname, &#39;build&#39;); // 其他配置项... return webpackConfig; &#125;, &#125;, &#125;;</code></pre>]]></content>
     
@@ -92,7 +92,7 @@
     <category term="web前端" scheme="https://boilingsheep.club/categories/web%E5%89%8D%E7%AB%AF/"/>
     
     
-    <category term="webapck" scheme="https://boilingsheep.club/tags/webapck/"/>
+    <category term="webpack" scheme="https://boilingsheep.club/tags/webpack/"/>
     
   </entry>
   
