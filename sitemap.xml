@@ -49,7 +49,7 @@
 
   <url>
     <loc>https://boilingsheep.club/</loc>
-    <lastmod>2023-08-29</lastmod>
+    <lastmod>2023-09-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -57,42 +57,42 @@
   
   <url>
     <loc>https://boilingsheep.club/tags/webpack/</loc>
-    <lastmod>2023-08-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://boilingsheep.club/tags/video/</loc>
-    <lastmod>2023-08-29</lastmod>
+    <lastmod>2023-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boilingsheep.club/tags/JS/</loc>
-    <lastmod>2023-08-29</lastmod>
+    <lastmod>2023-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boilingsheep.club/tags/Vue/</loc>
-    <lastmod>2023-08-29</lastmod>
+    <lastmod>2023-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boilingsheep.club/tags/React/</loc>
-    <lastmod>2023-08-29</lastmod>
+    <lastmod>2023-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boilingsheep.club/tags/NodeJS/</loc>
-    <lastmod>2023-08-29</lastmod>
+    <lastmod>2023-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boilingsheep.club/tags/video/</loc>
+    <lastmod>2023-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -101,7 +101,7 @@
   
   <url>
     <loc>https://boilingsheep.club/categories/web%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2023-08-29</lastmod>
+    <lastmod>2023-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
