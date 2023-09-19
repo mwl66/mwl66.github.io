@@ -56,6 +56,13 @@
 
   
   <url>
+    <loc>https://boilingsheep.club/tags/webpack/</loc>
+    <lastmod>2023-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://boilingsheep.club/tags/JS/</loc>
     <lastmod>2023-09-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -78,13 +85,6 @@
   
   <url>
     <loc>https://boilingsheep.club/tags/NodeJS/</loc>
-    <lastmod>2023-09-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://boilingsheep.club/tags/webpack/</loc>
     <lastmod>2023-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
